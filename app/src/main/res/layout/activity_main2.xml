@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kushwaha.sliettouch.Main2Activity"
+    android:background="@drawable/sliet"
+    android:alpha="0.20">
+
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="kushwaha.sliettouch.Fragment_3"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        tools:layout="@layout/fragment_fragment_3" />
+
+    <fragment
+        android:id="@+id/fragment5"
+        android:name="kushwaha.sliettouch.Fragment_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/fragment4"
+        tools:layout="@layout/fragment_fragment_4" />
+</RelativeLayout>

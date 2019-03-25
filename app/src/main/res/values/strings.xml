@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sliet Touch</string>
+    <string-array name="Quotes">
+        <item>ranjeet</item>
+        <item>sohan</item>
+        <item>mohan</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
